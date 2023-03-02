@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Learn JavaScript</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <div>
+        <h1 class="title">Task mangement</h1>
+      <div class="control">
+        <form>
+        <input type="text"   placeholder="Enter the title of the task">
+        <input type="text"   placeholder="Enter the day to work the task">
+        <input type="text"   placeholder="Enter the time of the task ">
+        <input type="text"  placeholder="Enter the detiles of the task">
+        <input type="text"   placeholder="Enter the priority of the task">
+        </form>
+        
+        <button id="create">create</button>
+        <button id="clear">clear</button>
+      </div>
+    </div>
+
+    <div class="tasks">
+      <h1> Tasks</h1>
+      <div class="formToClone ds-none ">
+        <table class="dataTask">
+          <tr>
+            <th>Title</th>
+            <th id="title"></th>
+          </tr>
+          <tr>
+            <th>Day</th>
+            <th id="day"></th>
+          </tr>
+          <tr>
+            <th>Time</th>
+            <th id="time"></th>
+          </tr>
+          <tr>
+            <th>Detiles</th>
+            <th id="detiles"></th>
+          </tr>
+          <tr>
+            <th>Priority</th>
+            <th id="priority"></th>
+          </tr>
+        </table>
+
+        <button  class="deleTask" id="deleTask">Delete</button>
+      </div>
+    </div>
+    <script src="main.js" ></script>
+  </body>
+</html>
